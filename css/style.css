@@ -1,0 +1,62 @@
+
+html {
+	--bd-orange: #c85738;
+	--bd-orange-light: #d26142;
+	--bd-green: #206b51;
+	--bd-off-white: #fff9ec;
+	--bd-dark-gray: #575759;
+}
+
+body {
+	background-color: var(--bd-off-white);
+}
+
+.text-dark-gray {
+	color: var(--bd-dark-gray);
+}
+
+.text-orange {
+	color: var(--bd-orange);
+}
+
+.navbar-brand {
+	color: var(--bd-green);
+	font-family: 'Mukta Mahee', sans-serif;
+	font-size: 2em;
+}
+
+.navbar-brand:hover {
+	color: var(--bd-green);
+}
+
+.navbar a.nav-link {
+	color: var(--bd-dark-gray);
+}
+
+#hero {
+	margin: 6em auto;
+}
+
+#hero h1 {
+	font-size: 3em;
+}
+
+#hero hr {
+	max-width: 200px;
+}
+
+#hero input {
+	max-width: 300px;
+}
+
+.btn-cta {
+	background-color: var(--bd-orange);
+	border-color: var(--bd-orange);
+	color: white;
+}
+
+.btn-cta:hover {
+	background-color: var(--bd-orange-light);
+	border-color: var(--bd-orange-light);
+	color: white;
+}
